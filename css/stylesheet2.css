@@ -1,0 +1,119 @@
+body
+{
+	background-color: #1C6FBD;
+	font-family:"Calibri",Arial;
+	display: flex;
+	min-height: 100vh;
+	flex-wrap: wrap;
+}
+#contenido
+{
+	width :960px;
+	margin: 0 auto;
+	text-align: center;
+}
+h1
+{
+	color:#3DCA19;
+}
+nav ul li
+{
+
+	display: inline-block;
+	text-align: center;
+	margin-right: 80px;
+	padding: 10px 10px;
+	color:#FFF;
+	cursor:pointer;
+	font-weight: bold;
+}
+#textoprin
+{
+	width: 500px;
+	height: auto;
+	background-color: #C0C1C9;
+	color: #1d1d1d; 
+	margin: 0 auto;
+	border-radius: 20px;
+	padding: 10px;
+	
+}
+
+#section 
+{
+float: right;
+width: 660px;
+margin: 20px;
+} 
+
+#columna
+{
+float: left;
+width: 220px;
+margin: 20px 0px;
+padding: 20px;
+background:#CCCCCC;
+
+img
+{
+	width: auto;
+	height: auto;
+	margin: auto;
+	display: block;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+
+}
+.banner
+{
+	width: 700px;
+	height: 400px;
+	border: 3px solid white;
+	margin: auto;
+
+	background-size: 100% 100%;
+
+	animation-name: banner;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	
+}
+
+ @keyframes banner {
+	 0%, 30% {
+ 		background-image: url(img/giro.jpg);
+ 		opacity: 1;
+ 	}
+ 	31%, 34% {
+		opacity: 0.5;
+ 	}	
+ 	35%, 65% {
+ 		background-image: url(img/logo.jpg);
+		opacity: 1;
+ 	}
+	66%, 69%{
+ 		opacity: 0.5%;
+ 	}
+	 70%, 100%{
+ 		background-image: url(img/giro1.jpg);
+		opacity: 1;
+	 }
+}
+
+div
+{
+	width: 100%
+}
+a
+{
+	color: #FF8400;
+	font-weight: bold;
+}
+
+#pie {
+clear: both;
+text-align: center;
+padding: 20px;
+border-top: 2px solid #999999;
+}
+
